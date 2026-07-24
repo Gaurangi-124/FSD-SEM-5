@@ -1,0 +1,34 @@
+const email=document.getElementById("email");
+const name=document.getElementById("name");
+const password=document.getElementById("password");
+const btn=document.getElementById("btn");
+
+const div=document.getElementById("students");
+btn.addEventListener("click",(e)=>{
+    e.preventDefault();
+    const val=email.innerText;
+    console.log(name.val);
+    console.log(email.val);
+    console.log(password.val);
+
+    const innerdiv=document.createElement("div");
+    innerdiv.innerText='&{email.value} &{name.value} &{password.value}';
+    div.appendChild(innerdiv);
+})
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="name" id="name"><br>
+    <input type="email" name="email" id="email"><br>
+    <input type="password" name="password" id="password"><br>
+    <button type="button">Register</button>
+    <div id="students"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
