@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <center>
+        <h1>REGISTRATION PAGE</h1>
+    </center>
+    <form>
+         STUDENT NAME<input type ="text" name ="Name" placeholder="gaurangi sharma">
+         <br>
+         <br>
+        FATHER'S NAME<input type ="text" name ="FATHER'S NAME" placeholder="kamal sharma">
+        <br>
+        <br>
+        MOTHERS'S NAME<input type ="text" name ="MOTHERS's name" placeholder="Rekha sharma">
+        <br>
+        <br>
+        Date of birth<input type = "date">
+            <br>
+        <br>
+        Gender male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="female">
+        Other<input type="radio" name="gender" value="other">
+        <br>
+        <br>
+
+         hobbies
+         reading<input type="checkbox" checked>
+            singing<input type="checkbox" checked>
+            dancing<input type="checkbox"checked>
+            <br>
+            <br>
+            contact no<input type = "text">
+            <br>
+            <br>
+            upload photo<input type ="file">
+            <br>
+            <br>
+            EMAIL<input type="email">
+            <br>
+            <br>
+            <input type ="button" value="submit">
+              <input type = "button" value = "reset">
+              <br>
+              <br>
+
+              Address<textarea></textarea>
+<br>
+<br>
+        choose your branch <select>
+          
+            <option>cse</option>
+            <option>aiml</option>
+              <option>ECE</option>
+                <option>Mech</option>
+                   <option>civil</option>
+        
+
+            </select>
+
+
+    </form>
+</body>
+</html>
