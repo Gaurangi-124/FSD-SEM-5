@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <style>
+     div{
+         background-color:white;
+           font-size: xx-large;
+           width:300px;
+           border:50px solid rgb(7,95,7);
+           padding:250px;
+           margin:100px;
+    }
+    h1{
+        color:rgb(13,119,13);
+        font-size:40px;
+
+        }
+    </style>
+    </head>
+    <body>
+        <div><center>
+            <p>web designing</p>
+            <p>a computer science projects</p>
+        </center>
+        </div>
+</body>
+</html>
